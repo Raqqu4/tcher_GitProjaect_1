@@ -1,6 +1,9 @@
+pew = True
+
+
 def main():
     print('My first git program')
-    print('poof :)' if input() == ':)' else ':(')
+    print('poof :)' if pew else 'aw :(')
 
 
 if __name__ == '__main__':
